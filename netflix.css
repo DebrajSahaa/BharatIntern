@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: #fff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #141414;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #e50914;
+}
+
+.profile img {
+    height: 40px;
+    border-radius: 4px;
+}
+
+.hero {
+    height: 100vh;
+    background: url('https://assets.nflxext.com/ffe/siteui/vlv3/447c6454-1b0d-4b8a-90c8-cbc304a0c1aa/cbb1ff83-49ad-4115-9e3b-2a3d0e41006f/US-en-20210503-popsignuptwoweeks-perspective_alpha_website_large.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 80px; /* Offset for the fixed header */
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin: 0 0 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin: 0 0 30px;
+}
+
+.hero button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hero button:hover {
+    background-color: #f40612;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #141414;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
